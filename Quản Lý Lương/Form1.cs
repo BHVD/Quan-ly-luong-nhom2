@@ -54,10 +54,13 @@ namespace Quản_Lý_Lương
             //chuyen tab
             tab_control.SelectTab(tab_report);
         }
+        private void btn_chucVu_Click(object sender, EventArgs e)
+        {
+            tab_control.SelectTab(tab_chucvu);
+        }
 
-       
 
-       
+
         // set event click cho mỗi button trong tab luong
 
 
@@ -208,6 +211,11 @@ namespace Quản_Lý_Lương
         private void button10_Click(object sender, EventArgs e)
         {
             tab_control.SelectTab(tab_luong);
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
